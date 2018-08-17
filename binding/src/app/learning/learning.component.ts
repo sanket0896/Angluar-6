@@ -9,6 +9,7 @@ export class LearningComponent implements OnInit {
 
   public myname = "Kabira";
   public message = "";
+  public name = "";
   constructor() { }
 
   ngOnInit() {
