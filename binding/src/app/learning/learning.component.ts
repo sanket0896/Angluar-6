@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LearningComponent implements OnInit {
 
+  public myname = "Kabira"
   constructor() { }
 
   ngOnInit() {
   }
-
+  public func() {
+    return "Called from function.";
+  }
 }
