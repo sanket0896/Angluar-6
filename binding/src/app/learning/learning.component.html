@@ -3,5 +3,12 @@
   {{func()}}<br>
   Click this button: <button (click) = "onClick($event)">Button</button> to see the magic! <b>{{message}}</b><br>
   Type in ur name here:<input type="text" #inputName> <button (click) = "logName(inputName.value)">Log</button><br>
-  Example of Two-way Data binding: <input type="text" [(ngModel)] = "name" > {{name}}
+  Example of Two-way Data binding: <input type="text" [(ngModel)] = "name" > {{name}} <br>
 </p>
+<div *ngIf="display; then thenPart; else elsePart;"></div>
+<ng-template #thenPart>
+  Then Part
+</ng-template>
+<ng-template #elsePart>
+  Else Part
+</ng-template>
