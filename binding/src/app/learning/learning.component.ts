@@ -20,4 +20,7 @@ export class LearningComponent implements OnInit {
     this.message = "Button clicked!";
     console.log(event);
   }
+  public logName(value) {
+    console.log(value);
+  }
 }

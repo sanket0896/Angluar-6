@@ -1,6 +1,6 @@
 <p>
   This is {{myname}} speaking!<br>
   {{func()}}<br>
-  Click this button: <button (click) = "onClick($event)">Button</button> to see the magic!<br>
-  {{message}}
+  Click this button: <button (click) = "onClick($event)">Button</button> to see the magic! <b>{{message}}</b><br>
+  Type in ur name here:<input type="text" #inputName> <button (click) = "logName(inputName.value)">Log</button><br>
 </p>
