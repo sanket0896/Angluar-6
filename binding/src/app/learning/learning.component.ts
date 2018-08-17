@@ -11,6 +11,7 @@ export class LearningComponent implements OnInit {
   public message = "";
   public name = "";
   public display = false;
+  public colors = ["red", "blue", "greeen", "orange", "red"];
   constructor() { }
 
   ngOnInit() {
