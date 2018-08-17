@@ -16,7 +16,8 @@ export class LearningComponent implements OnInit {
   public func() {
     return "Called from function.";
   }
-  public onClick() {
+  public onClick(event) {
     this.message = "Button clicked!";
+    console.log(event);
   }
 }
