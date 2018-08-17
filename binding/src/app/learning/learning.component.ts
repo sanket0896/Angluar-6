@@ -15,4 +15,7 @@ export class LearningComponent implements OnInit {
   public func() {
     return "Called from function.";
   }
+  public onClick() {
+    console.log("Button clicked!");
+  }
 }
